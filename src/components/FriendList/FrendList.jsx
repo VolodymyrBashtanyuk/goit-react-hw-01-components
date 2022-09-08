@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 import { Friend } from './Friend';
+import { Wrapper } from './FrendList.styled';
 
 export const FriendList = ({friends}) => {
-return <ul>
+return <Wrapper>
     <Friend friend={friends} />
-    </ul>
+    </Wrapper>
 }
 
 FriendList.propTypes = {
