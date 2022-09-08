@@ -18,8 +18,8 @@ import transactions from 'data/transactions.json';
           avatar={user.avatar}
           stats={user.stats} />
         <Statistics title='Upload stats' stats={statistic} />
-        <FriendList friends={friends} />;
-        <TransactionHistory items={transactions} />;
+        <FriendList friends={friends} />
+        <TransactionHistory items={transactions} />
       </>
     );
   };
