@@ -8,6 +8,7 @@ export const Wrapper = styled.ul`
     padding: 0;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 40px;
 `;
 
 export const Item = styled.li`
