@@ -7,7 +7,7 @@ return <SectionStatistic >
 <Title>{title}</Title>
 <StatisticList>
 {stats.map(({id, label, percentage}) => 
-<StatisticItems key={id} className="item">
+<StatisticItems key={id}>
 <DataList>{label}</DataList>
 <DataList>{percentage}%</DataList>
 </StatisticItems>
