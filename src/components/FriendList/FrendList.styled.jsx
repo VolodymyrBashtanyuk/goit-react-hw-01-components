@@ -3,9 +3,6 @@ import styled from 'styled-components'
 export const Wrapper = styled.ul`
     width: 300px;
     text-align: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 40px;
@@ -30,15 +27,12 @@ export const Status = styled.span`
     margin-left: 20px;
 `;
 export const Avatar = styled.img`
-display: block;
-width: 60px;
-height: 60px;
-margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
 `;
 
 export const Name =styled.p`
-    margin: 0;
-    padding: 0;
     margin-left: 20px;
     font-size: 30px;
 `
