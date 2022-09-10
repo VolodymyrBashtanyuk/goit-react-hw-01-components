@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import { StatisticTitle } from './Title';
 import {
   SectionStatistic,
-  Title,
   StatisticList,
   StatisticItems,
   DataList,
